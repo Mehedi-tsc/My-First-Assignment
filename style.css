@@ -1,4 +1,8 @@
-
+body{
+    margin-top: 0px;
+    margin: 0px 0px;
+    margin-right: 0px;
+}
 nav div{
     background-color:#FFFFFF;
     display: flex;
@@ -32,3 +36,71 @@ nav div button{
     max-height: 44px;
     border: none;
 }
+.banner{
+    margin-top: 16px;
+    background-image: url(assets/hero-bg.png);
+    padding-top: 120px;
+    padding-bottom: 179px;
+    text-align: center;
+}
+.banner-section h1 {
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+    max-width: 770px;
+   margin: 0 auto;
+}
+#first-h1{
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+#second-h1{
+    color: #30B868;
+    margin-bottom: 0px;
+}
+.banner-section p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.button {
+    display: flex;
+   margin: 0px auto;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+#btn-1,#btn-2{
+    background-color: #469165;
+    padding: 16px 12px;
+    max-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+#btn-1{
+    border: none;
+}
+#btn-1 img {
+    margin-left: 10px;
+}
+#btn-2 { background-color:#ffffff00;
+    
+}
+.banner-section h4 {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    padding: 12px 8px;
+    width: fit-content;
+    margin: 0px auto;
+   
+}
+
