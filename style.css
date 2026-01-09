@@ -2,6 +2,8 @@ body{
     margin-top: 0px;
     margin: 0px 0px;
     margin-right: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 nav div{
     background-color:#FFFFFF;
@@ -72,7 +74,7 @@ nav div button{
    justify-content: center;
    gap: 10px;
 }
-#btn-1,#btn-2{
+#btn-1,#btn-2,#btn-3{
     background-color: #469165;
     padding: 16px 12px;
     max-height: 52px;
@@ -207,4 +209,88 @@ nav div button{
     gap: 6px;
     margin-left: -40px;
     
+}
+#early-access{
+    width: 85%;
+    max-width:1360px;
+    background-color:#F7F6F2;
+    margin: 120px auto 0px;
+    padding: 40px 80px;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.early-access-container{
+   
+    }
+    .early-access-container h2{
+        color: #001931;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    .early-access-container p{
+        color: #627382;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
+
+
+footer{
+    margin-top: 120px;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    width: 85%;
+    max-width: 1360px;
+}
+.footer-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between; 
+}
+.social-link h6{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: 28px;
+    margin-bottom:16px;
+}
+.link span{
+    margin-right: 16px;
+    color: #FFFFFF;
+    height: 20px;
+    width: 20px;
+}
+hr{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+#copy{
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+button:hover{
+    background-color: #627382;
+    cursor: pointer;
+}
+#btn-1:hover{
+   background-color: #627382;  
+}
+#btn-2:hover{
+    background-color: #627382;
+}
+#btn-3:hover{
+    background-color: #627382;
+}
+#btn-3{
+    display: flex;
+   margin: 0px auto 16px;
 }
