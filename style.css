@@ -243,14 +243,15 @@ footer{
     margin-top: 120px;
     background-color: #001931;
     padding: 120px 120px 30px 120px;
-    width: 85%;
-    max-width: 1360px;
+    
 }
 .footer-container{
     display: flex;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
+    width: 85%;
+    max-width: 1360px; 
 }
 .social-link h6{
     color: #FFFFFF;
@@ -293,4 +294,5 @@ button:hover{
 #btn-3{
     display: flex;
    margin: 0px auto 16px;
+   gap: 10px;
 }
