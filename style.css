@@ -223,11 +223,7 @@ nav div button{
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-
 }
-.early-access-container{
-   
-    }
     .early-access-container h2{
         color: #001931;
         font-size: 40px;
@@ -245,7 +241,7 @@ nav div button{
 footer{
     margin-top: 120px;
     background-color: #001931;
-    padding: 120px 120px 30px 120px;
+    
     
 }
 .footer-container{
@@ -255,6 +251,7 @@ footer{
     justify-content: space-between;
     width: 85%;
     max-width: 1360px; 
+    padding: 120px 120px 0px 120px;
 }
 .social-link h6{
     color: #FFFFFF;
@@ -278,6 +275,7 @@ hr{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 
