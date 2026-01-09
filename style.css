@@ -5,8 +5,11 @@ body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
-nav div{
+header{
     background-color:#FFFFFF;
+}
+nav div{
+    
     display: flex;
     width: 85%;
     max-width: 1360px;
@@ -16,6 +19,7 @@ nav div{
 }
 nav div img{
     max-width: 139px;
+    margin-bottom: 16px;
 }
 nav div ul{
     display: flex;
@@ -39,7 +43,6 @@ nav div button{
     border: none;
 }
 .banner{
-    margin-top: 16px;
     background-image: url(assets/hero-bg.png);
     padding-top: 120px;
     padding-bottom: 179px;
@@ -165,7 +168,7 @@ nav div button{
     max-width: 1360px;
     text-align: left;
 }
-..brain-img{
+.brain-img{
     max-height: 600px;
 }
 .section-message{
